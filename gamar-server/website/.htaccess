@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|test\.php|assets|library/_generateModelCodeFromSqlCreateCode\.php)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+php_flag display_errors on
+
+php_value upload_max_filesize 200M
+php_value post_max_size 10M
+php_value memory_limit 512M

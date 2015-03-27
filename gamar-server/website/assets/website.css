@@ -1,0 +1,159 @@
+body {
+	font-family:Arial;
+}
+
+h1 {
+	color:#94A5A5;
+	font-family:Arial;
+	font-size:28px;
+	text-transform:uppercase;
+}
+
+h2 {
+	color:#637574;
+	font-family:Arial;
+	font-size:23px;
+	margin-top:50px;
+}
+
+form {
+	width:80%;
+	margin:0px auto;
+}
+
+input {
+	font-size:20px;
+	display:block;
+	margin-bottom:20px;
+	padding:4px;
+}
+
+button {
+	font-size:20px;
+	display:block;
+	margin-bottom:20px;
+	padding:6px 10px;
+}
+
+label {
+	display:block;
+	color:#637574;
+	font-size:18px;
+}
+
+#contentContainer {
+    background-color: #EEE;
+    padding:40px 48px;
+    clear:both;
+    text-align:left;
+	margin-top:10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.separator {
+	display:block;
+	border-bottom:1px solid #AAA;
+	margin:40px 0 20px 0;
+	height:2px;
+}
+
+.errorNote {
+	display:block;
+	background-color:#F00;
+}
+
+.errorNoteText {
+	display:block;
+	margin-left:10px;
+	padding:20px 30px;
+	background-color:#FFF;
+	color:#222;
+}
+
+/* MANAGE */
+
+.groupHead {
+	display:block;
+	padding:10px 20px;
+	background-color:#1177AA;
+	margin-top:10px;
+	color:#FFF;
+	text-decoration:none;
+	/*border:2px solid #EEE;*/
+}
+
+.groupHead p {
+	float:right;
+	background-color:#FFF;
+	color:#000;
+	margin-top:-4px;
+	padding:4px 8px;
+	font-family:Courier;
+	font-weight:bold;
+}
+
+.usersPanel {
+	background-color:#40A6D9;
+	padding:4px 8px;
+}
+
+.usersPanel span {
+	display:inline-block;
+	background-color:#FFF;
+	color:#000;
+	padding:4px 8px;
+	margin:4px 4px;
+}
+
+/* MENU */
+#menuContainer {
+    background-color: #999;
+    padding:0px;
+    clear:both;
+    text-align:center;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#menu {
+    margin: 0 auto;
+	font-size:0;
+}
+#menu ul, #menu li {
+    display:inline;
+    list-style-type: none;
+	padding:0;
+	margin:0;
+	zoom:1;
+}
+
+#menu li {
+	background-color:#002;
+	display:inline-block;
+	padding-top:4px;
+}
+
+#menu a {
+	color:#FFF;
+	font: normal 16px Arial;
+    text-align: center;zoom:1;
+	padding:10px 26px;
+	text-decoration:none;
+    display: inline-block;
+}
+
+#menu a:hover {
+	background-color:#333;
+}
+
+#menu a.selected {
+	background-color:#333;
+}
+
+.item1 { background-color:#1177AA; }
+.item2 { background-color:#74A824; }
+.item3 { background-color:#CC8300; }
+.item4 { background-color:#AA0063; }

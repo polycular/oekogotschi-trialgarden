@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond $1 !^(index.php)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+php_value upload_max_filesize 2G
+php_value post_max_size 2G
+php_value memory_limit 512M

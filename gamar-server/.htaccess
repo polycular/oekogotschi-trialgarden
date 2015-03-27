@@ -1,0 +1,16 @@
+RewriteEngine on
+
+# redirect everything that is unknown to website/index.php
+RewriteCond $1 !^(1\.0|assets|library/_generateModelCodeFromSqlCreateCode\.php|pm\.php|favicon\.ico|robots\.txt)
+RewriteRule ^(.*)$ website/index.php?/$1 
+
+# redirect assets to website/assets/ so we can have the website at domain root
+RewriteCond $1 ^(assets)
+RewriteRule ^(.*)$ website/$1 [L] 
+
+# some php flags and settings
+php_flag display_errors on
+
+php_value upload_max_filesize 2G
+php_value post_max_size 2G
+php_value memory_limit 512M
